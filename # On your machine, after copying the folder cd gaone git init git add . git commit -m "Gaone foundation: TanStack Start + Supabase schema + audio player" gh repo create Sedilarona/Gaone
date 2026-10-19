@@ -1,0 +1,7 @@
+# On your machine, after copying the folder
+cd gaone
+git init
+git add .
+git commit -m "Gaone foundation: TanStack Start + Supabase schema + audio player"
+gh repo create Sedilarona/gaone --public --source=. --remote=origin --push
+# or create via UI and push
